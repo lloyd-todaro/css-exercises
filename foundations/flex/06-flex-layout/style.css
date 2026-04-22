@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -24,3 +26,41 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header{
+  display: flex;
+  flex-direction: row;
+  
+}
+.left-links{
+  margin-right: auto;
+  display: flex;
+  gap: 10px;
+  
+ 
+}
+
+.right-links{
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.buttons{
+  display: flex;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  background-color: tan;
+  padding: 10px;
+}
+
