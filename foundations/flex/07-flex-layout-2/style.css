@@ -4,7 +4,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+
 }
 
 .header {
@@ -24,9 +24,12 @@ body {
   
   background: royalblue;
   box-sizing: border-box;
-  display: flex;
+   display: flex;
   flex-direction: column;
   margin-bottom: auto;
+  align-items: start;
+  height: 100%;
+  min-width: 200px;
  
   
 }
@@ -41,7 +44,7 @@ body {
 .middle{
   display: flex;
   flex-direction: row;
-
+  flex-grow: 1;
   gap: 15px;
   column-gap: 20px;
 }
@@ -60,3 +63,14 @@ a{
   color: #eee;
 }
 
+li{
+  list-style-type: none;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+  
+}
